@@ -22,9 +22,14 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 `composer require yajra/laravel-datatables:1.*`
 
 #### Service Providers
-`Yajra\DataTables\DataTablesServiceProvider::class`
-`Yajra\DataTables\ButtonsServiceProvider::class`
-`Yajra\DataTables\FractalServiceProvider::class`
+Update `config/app.php` and register the following providers. 
+> This step is optional if you are using Laravel 5.5.
+
+```php
+Yajra\DataTables\DataTablesServiceProvider::class,
+Yajra\DataTables\ButtonsServiceProvider::class,
+Yajra\DataTables\FractalServiceProvider::class
+```
 
 #### Configuration and Assets (Optional)
 `$ php artisan vendor:publish`
