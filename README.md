@@ -19,7 +19,7 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 - [Laravel DataTables Documentation](http://yajrabox.com/docs/laravel-datatables)
 
 ## Installation
-`composer require yajra/laravel-datatables:1.*`
+`composer require yajra/laravel-datatables:^1.0`
 
 #### Service Providers
 Update `config/app.php` and register the following providers. 
