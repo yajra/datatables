@@ -10,18 +10,29 @@
 This package is a complete installer of [Laravel DataTables](https://github.com/yajra/laravel-datatables) core & plugins.
 
 ## Requirements
-- [PHP >=7.0](http://php.net/)
+
+- [PHP >=8.0.2](http://php.net/)
 - [Laravel 5.4+](https://github.com/laravel/framework)
 - [jQuery DataTables v1.10.x](http://datatables.net/)
 - [jQuery DataTables Buttons Extension](https://datatables.net/reference/button/)
 
 ## Documentations
+
 - [Laravel DataTables Documentation](http://yajrabox.com/docs/laravel-datatables)
 
+## Laravel Version Compatibility
+
+| Laravel       | Package |
+|:--------------|:--------|
+| 8.x and below | 1.x     |
+| 9.x           | 9.x     |
+
 ## Installation
-`composer require yajra/laravel-datatables:^1.5`
+
+`composer require yajra/laravel-datatables:^9.0`
 
 #### Service Providers
+
 Update `config/app.php` and register the following providers.
 > This step is optional if you are using Laravel 5.5.
 
@@ -32,6 +43,7 @@ Yajra\DataTables\FractalServiceProvider::class
 ```
 
 #### Configuration and Assets (Optional)
+
 `$ php artisan vendor:publish`
 
 And that's it! Start building out some awesome DataTables!
