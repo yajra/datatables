@@ -16,11 +16,10 @@
   "require": {
     "php": "^8.0.2",
     "yajra/laravel-datatables-oracle": "10.*",
-    "yajra/laravel-datatables-buttons": "4.*",
+    "yajra/laravel-datatables-buttons": "9.*",
     "yajra/laravel-datatables-editor": "1.*",
-    "yajra/laravel-datatables-html": "4.*",
-    "yajra/laravel-datatables-fractal": "1.*",
-    "yajra/laravel-datatables-export": "^0.6.1"
+    "yajra/laravel-datatables-html": "9.*",
+    "yajra/laravel-datatables-fractal": "9.*"
   },
   "extra": {
     "branch-alias": {
