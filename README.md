@@ -11,8 +11,8 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 
 ## Requirements
 
-- [PHP >= 8.0.2](http://php.net/)
-- [Laravel 9.x](https://github.com/laravel/framework)
+- [PHP >= 8.1](http://php.net/)
+- [Laravel 10.x](https://github.com/laravel/framework)
 - [jQuery DataTables v1.10.x](http://datatables.net/)
 - [jQuery DataTables Buttons Extension](https://datatables.net/reference/button/)
 
@@ -26,10 +26,11 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 |:--------------|:--------|
 | 8.x and below | 1.x     |
 | 9.x           | 9.x     |
+| 10.x          | 10.x    |
 
 ## Installation
 
-`composer require yajra/laravel-datatables:^9.0`
+`composer require yajra/laravel-datatables:^10`
 
 #### Service Providers
 
