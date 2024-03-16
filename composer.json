@@ -16,7 +16,7 @@
   "require": {
     "php": "^8.2",
     "yajra/laravel-datatables-buttons": "^11",
-    "yajra/laravel-datatables-editor": "1.*",
+    "yajra/laravel-datatables-editor": "^11",
     "yajra/laravel-datatables-export": "^11",
     "yajra/laravel-datatables-fractal": "^11",
     "yajra/laravel-datatables-html": "^11",
