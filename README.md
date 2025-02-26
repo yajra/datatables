@@ -16,10 +16,12 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 
 ## Requirements
 
-- [PHP >= 8.2](http://php.net/)
+- [PHP >= 8.2](https://php.net/)
 - [Laravel 12.x](https://github.com/laravel/framework)
-- [jQuery DataTables 2.x](http://datatables.net/)
-- [jQuery DataTables Buttons Extension](https://datatables.net/reference/button/)
+- [DataTables 2.x](https://datatables.net/)
+- [DataTables Editor 2.x](https://editor.datatables.net/)
+- [DataTables Buttons Extension](https://datatables.net/extensions/buttons/)
+- [DataTables Select Extension](https://datatables.net/extensions/select/)
 
 ## Documentations
 
