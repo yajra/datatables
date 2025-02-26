@@ -24,8 +24,10 @@
   },
   "require-dev": {
     "larastan/larastan": "^3.1",
-    "orchestra/testbench": "^10",
     "laravel/pint": "^1.21",
+    "orchestra/testbench": "^10",
+    "pestphp/pest": "^3.7",
+    "pestphp/pest-plugin-laravel": "^3.1",
     "rector/rector": "^2.0.9"
   },
   "autoload-dev": {
@@ -45,7 +47,7 @@
     }
   },
   "scripts": {
-    "test": "./vendor/bin/phpunit",
+    "test": "./vendor/bin/pest",
     "pint": "./vendor/bin/pint",
     "rector": "./vendor/bin/rector",
     "stan": "./vendor/bin/phpstan analyse --memory-limit=2G --ansi --no-progress --no-interaction --configuration=phpstan.neon.dist",
