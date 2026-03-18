@@ -2,6 +2,12 @@
 
 ## Change Log
 
+### UNRELEASED
+
+### v13.0.0 - 2026-03-18
+
+- Laravel 13 support
+
 ### v12.0.0 - 2025-02-26
 
 - Add Laravel 12 support
