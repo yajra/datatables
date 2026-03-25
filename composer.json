@@ -14,20 +14,20 @@
     }
   ],
   "require": {
-    "php": "^8.2",
-    "yajra/laravel-datatables-buttons": "^12.1",
-    "yajra/laravel-datatables-editor": "^12",
-    "yajra/laravel-datatables-export": "^12",
-    "yajra/laravel-datatables-fractal": "^12",
-    "yajra/laravel-datatables-html": "^12",
-    "yajra/laravel-datatables-oracle": "^12"
+    "php": "^8.3",
+    "yajra/laravel-datatables-buttons": "^13",
+    "yajra/laravel-datatables-editor": "^13",
+    "yajra/laravel-datatables-export": "^13",
+    "yajra/laravel-datatables-fractal": "^13",
+    "yajra/laravel-datatables-html": "^13",
+    "yajra/laravel-datatables-oracle": "^13"
   },
   "require-dev": {
     "larastan/larastan": "^3.1",
     "laravel/pint": "^1.21",
-    "orchestra/testbench": "^10",
-    "pestphp/pest": "^3.7",
-    "pestphp/pest-plugin-laravel": "^3.1",
+    "orchestra/testbench": "^11",
+    "pestphp/pest": "^4",
+    "pestphp/pest-plugin-laravel": "^4",
     "rector/rector": "^2.0.9"
   },
   "autoload-dev": {
@@ -37,7 +37,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "12.x-dev"
+      "dev-master": "13.x-dev"
     }
   },
   "config": {

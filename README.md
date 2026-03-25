@@ -4,7 +4,7 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/yajra)
 [![Donate](https://img.shields.io/badge/donate-patreon-blue.svg)](https://www.patreon.com/bePatron?u=4521203)
 
-[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-orange.svg)](http://laravel.com)
+[![Laravel 13.x](https://img.shields.io/badge/Laravel-13.x-orange.svg)](http://laravel.com)
 [![Latest Stable Version](https://img.shields.io/packagist/v/yajra/laravel-datatables-oracle.svg)](https://packagist.org/packages/yajra/laravel-datatables-oracle)
 [![Continuous Integration](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/continuous-integration.yml)
 [![Static Analysis](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/yajra/laravel-datatables/actions/workflows/static-analysis.yml)
@@ -16,8 +16,8 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 
 ## Requirements
 
-- [PHP >= 8.2](https://php.net/)
-- [Laravel 12.x](https://github.com/laravel/framework)
+- [PHP >= 8.3](https://php.net/)
+- [Laravel 13.x](https://github.com/laravel/framework)
 - [DataTables 2.x](https://datatables.net/)
 - [DataTables Editor 2.x](https://editor.datatables.net/)
 - [DataTables Buttons Extension](https://datatables.net/extensions/buttons/)
@@ -36,10 +36,11 @@ This package is a complete installer of [Laravel DataTables](https://github.com/
 | 10.x          | 10.x    |
 | 11.x          | 11.x    |
 | 12.x          | 12.x    |
+| 13.x          | 13.x    |
 
 ## Installation
 
-`composer require yajra/laravel-datatables:^12`
+`composer require yajra/laravel-datatables:^13`
 
 #### Service Providers
 
